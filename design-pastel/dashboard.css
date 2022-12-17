@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: url("images/BG1Seu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  border-style:solid;
+  border-color:#e26d5c;
+  background-color: #993300;
+  border-width: 1px;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+body .container .card:nth-child(1) .box .content a {
+  background: #ffeac3;
+}
+
+body .container .card:nth-child(2) .box .content a {
+  background: #ffeac3;
+}
+
+body .container .card:nth-child(3) .box .content a {
+  background: #ffeac3;
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #cace78;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+body .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #993300;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content  ul{
+  font-size: 1rem;
+  font-weight: 300;
+  color: #993300;
+  z-index: 1;
+  transition: 0.5s;
+  padding-inline-start: 20px;
+  text-align: left;
+}
+
+body .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #993300;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+body .container .card .box .content a:hover {
+  background: #fff;
+  color: #000;
+  scale:0.9;
+}
