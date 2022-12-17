@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
@@ -51,7 +51,7 @@ body .container .card .box {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background:black;
+  background: black;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -104,10 +104,10 @@ body .container .card .box .content p {
   transition: 0.5s;
 }
 
-ul{
+ul {
   color: whitesmoke;
-  text-align:left;
-  padding-left:20px;
+  text-align: left;
+  padding-left: 20px;
   list-style-type: none;
 }
 
