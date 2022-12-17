@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
-body{
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +9,7 @@ body{
   background-image: url("images/BG1Seu.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color:white;
+  background-color: white;
 }
 
 * {
@@ -31,10 +32,10 @@ body .container .card {
   position: relative;
   min-width: 320px;
   height: 440px;
-  border-style:solid;
-  border-color:#e26d5c;
-  background-color: #993300;
-  border-width: 1px;
+  border-style: none;
+  /* border-color:#e26d5c; */
+  background-color: #804d42;
+  /* border-width: 1px; */
   border-radius: 15px;
   margin: 30px;
   transition: 0.5s;
@@ -102,7 +103,7 @@ body .container .card .box .content h3 {
   margin-bottom: 15px;
 }
 
-body .container .card .box .content  ul{
+body .container .card .box .content ul {
   font-size: 1rem;
   font-weight: 300;
   color: #993300;
@@ -122,8 +123,9 @@ body .container .card .box .content a {
   margin-top: 20px;
   transition: 0.5s;
 }
+
 body .container .card .box .content a:hover {
   background: #fff;
   color: #000;
-  scale:0.9;
+  scale: 0.9;
 }
